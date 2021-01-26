@@ -1,0 +1,18 @@
+
+Startup: 
+Fehlerquelle bei Startup.cs -> https://stackoverflow.com/questions/53811569/http-error-500-30-ancm-in-process-start-failure
+
+Logging Library -> Serilog. -> Wird in der Program.cs meist eingebunden. 
+
+
+
+
+
+Fragen: 
+- ProducesResponseType -> welchen Benefitz hat Swagger? 
+- env.IsStaging  + env.IsEnviroment = kann man das via appsetting.json definieren. 
+
+- Konvntionen ->  [ApiConventionMethod(typeof(DefaultApiConventions), 
+                             nameof(DefaultApiConventions.Put))]
+
+
