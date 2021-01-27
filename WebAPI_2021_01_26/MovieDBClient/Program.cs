@@ -81,17 +81,6 @@ namespace MovieDBClient
                 //then do whatever you want
             }
 
-
-
-
-
-
-
-
-
-            
-
-
             foreach (ArrayOfMovieMovie currentMovie in arrayOfMovie.Movie)
             {
                 Console.WriteLine($"Filmtitel: {currentMovie.Title}");
@@ -125,7 +114,6 @@ namespace MovieDBClient
 
             return movie;
         }
-
         static async Task UpdateMovie(Movie movie)
         {
             string url = baseURL + movie.id.ToString(); //https://localhost:44311/api/Movies/1
