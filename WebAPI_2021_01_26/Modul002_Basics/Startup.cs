@@ -42,6 +42,10 @@ namespace Modul002_Basics
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Modul002_Basics v1"));
             }
+            else if (env.IsProduction())
+            {
+                // 
+            }
 
             app.UseHttpsRedirection();
 

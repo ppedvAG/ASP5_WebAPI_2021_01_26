@@ -15,20 +15,21 @@ Tag 1: (Vormittags)
 
 
 Tag 2: (Vormittgs):
-- [ ]  Async/Await Pattern
-- [ ]  HTTP Client Model
-- [ ]  Daten senden und empfangen
-- [ ]  Content Negotiation
-- [ ]  MediaTypes
+- [x]  Async/Await Pattern
+- [x]  HTTP Client Model
+- [x]  Daten senden und empfangen
+- [x]  MediaTypes -> Client muss XML deserialisieren
+
 - [ ]  Http Client with Swagger.json
-- [ ]  HttpRepl Einstieg
-- [ ]  Weitere Tools Postman und Fiddler
+- [ ]  Content Negotiation (Tag 3)
+- [o]  HttpRepl Einstieg -> Paper
+- [o]  Weitere Tools Postman und Fiddler (optionales)
 
 
 Tag 3: - (Vormittags):
 - [ ]  Error Handling
 - [ ]  Routing
-- [ ]  Formatter
+- [ ]  Formatter (XML, BSON?)
 - [ ]  Standard-Formatter / Formatter konfigurieren
 - [ ]  eigene Formatter implementieren
 - [ ]  Model Binding. Was ist das? 
@@ -38,4 +39,4 @@ Tag 4: - (Vormittags):
 - [ ]  WebAPI mit EF Core 5
 - [ ]  WebAPI Pagging / Searching / Caching
 - [ ]  WebAPI mit OData 
-- [ ]  Architekturübersicht: Hataoas, DataShapping, GraphQL
+- [ ]  Architekturübersicht: Hateoas, DataShapping, GraphQL

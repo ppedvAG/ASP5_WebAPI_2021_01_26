@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul001_DefaultProject", "Modul001_DefaultProject\Modul001_DefaultProject.csproj", "{A40A4641-5CFE-4575-BB90-A773986556EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul001_DefaultProject", "Modul001_DefaultProject\Modul001_DefaultProject.csproj", "{A40A4641-5CFE-4575-BB90-A773986556EF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{81DD3801-A629-471C-865B-F17D9FFE8904}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,11 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		LinkCollection.txt = LinkCollection.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependecyInjection", "DependecyInjection\DependecyInjection.csproj", "{AE1B797E-52F7-4F69-B771-2DC16A55CF2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependecyInjection", "DependecyInjection\DependecyInjection.csproj", "{AE1B797E-52F7-4F69-B771-2DC16A55CF2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul002_Basics", "Modul002_Basics\Modul002_Basics.csproj", "{A2FB82DD-3A3A-4B7E-B234-89A82CF69B0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul002_Basics", "Modul002_Basics\Modul002_Basics.csproj", "{A2FB82DD-3A3A-4B7E-B234-89A82CF69B0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Webpp", "MVC_Webpp\MVC_Webpp.csproj", "{DC5FC74D-38A7-4A9E-A595-90252A9862DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC_Webpp", "MVC_Webpp\MVC_Webpp.csproj", "{DC5FC74D-38A7-4A9E-A595-90252A9862DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul003", "Modul003", "{0921AFCD-680C-4FC8-8A02-A81833DA04C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitSample", "AsyncAwaitSample\AsyncAwaitSample.csproj", "{3068FD84-6995-45C6-BA5B-4489DD820146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieDBService", "MovieDBService\MovieDBService.csproj", "{D4FEF0BB-CA9D-4DFE-A25E-212DA07DF021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieDBClient", "MovieDBClient\MovieDBClient.csproj", "{83D5B6A0-8EF2-4D22-8BEC-B899F338CB40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +47,26 @@ Global
 		{DC5FC74D-38A7-4A9E-A595-90252A9862DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC5FC74D-38A7-4A9E-A595-90252A9862DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC5FC74D-38A7-4A9E-A595-90252A9862DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3068FD84-6995-45C6-BA5B-4489DD820146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3068FD84-6995-45C6-BA5B-4489DD820146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3068FD84-6995-45C6-BA5B-4489DD820146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3068FD84-6995-45C6-BA5B-4489DD820146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4FEF0BB-CA9D-4DFE-A25E-212DA07DF021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4FEF0BB-CA9D-4DFE-A25E-212DA07DF021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4FEF0BB-CA9D-4DFE-A25E-212DA07DF021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4FEF0BB-CA9D-4DFE-A25E-212DA07DF021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83D5B6A0-8EF2-4D22-8BEC-B899F338CB40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83D5B6A0-8EF2-4D22-8BEC-B899F338CB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83D5B6A0-8EF2-4D22-8BEC-B899F338CB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83D5B6A0-8EF2-4D22-8BEC-B899F338CB40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3068FD84-6995-45C6-BA5B-4489DD820146} = {0921AFCD-680C-4FC8-8A02-A81833DA04C9}
+		{D4FEF0BB-CA9D-4DFE-A25E-212DA07DF021} = {0921AFCD-680C-4FC8-8A02-A81833DA04C9}
+		{83D5B6A0-8EF2-4D22-8BEC-B899F338CB40} = {0921AFCD-680C-4FC8-8A02-A81833DA04C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E2F39392-B618-4F81-9ED7-FD9CD371EE37}

@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,13 +16,17 @@ namespace Modul002_Basics.Controllers
     {
         // https://localhost:12345/api/Values
         // GET: api/<ValuesController>
+        [ApiConventionMethod(typeof(DefaultApiConventions),
+                     nameof(DefaultApiConventions.Put))]
+
         [HttpGet] //<- HTTP Verb
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         //https://localhost:12345/api/Values/123
         // GET api/<ValuesController>/5
         [HttpGet("{id}")]
@@ -48,6 +54,12 @@ namespace Modul002_Basics.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+        }
+
+
+        [ApiConventionNameMatch(ApiConventionNameMatchBehavior.Prefix)]
+        public static void Find( [ApiConventionNameMatch(ApiConventionNameMatchBehavior.Suffix)] int id)
+        { 
         }
     }
 }

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5Kksz4TJOqF7nqMNI9QADrAi+EqplxF0A/7lGDm6M3BIy6InTIO8/RWpirY6I4SF9lReDYzLBFmQH+NUKWctRQ==",
+  "success": true,
+  "projectFilePath": "C:\\Aktueller Kurs\\ASP5_WebAPI_2021_01_26\\WebAPI_2021_01_26\\MovieDBClient\\MovieDBClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kw4\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

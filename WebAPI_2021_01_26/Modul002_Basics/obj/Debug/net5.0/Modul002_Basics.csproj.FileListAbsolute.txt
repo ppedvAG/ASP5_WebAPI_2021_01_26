@@ -28,12 +28,3 @@ C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\Modul002_Basics\obj\D
 C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\Modul002_Basics\obj\Debug\net5.0\Modul002_Basics.pdb
 C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\Modul002_Basics\obj\Debug\net5.0\Modul002_Basics.genruntimeconfig.cache
 C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\Modul002_Basics\bin\Debug\net5.0\Modul002_Basics.Views.dll
-C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\Modul002_Basics\bin\Debug\net5.0\Modul002_Basics.Views.pdb
-C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\Modul002_Basics\obj\Debug\net5.0\Modul002_Basics.RazorAssemblyInfo.cache
-C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\Modul002_Basics\obj\Debug\net5.0\Modul002_Basics.RazorAssemblyInfo.cs
-C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\Modul002_Basics\obj\Debug\net5.0\Modul002_Basics.TagHelpers.input.cache
-C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\Modul002_Basics\obj\Debug\net5.0\Modul002_Basics.TagHelpers.output.cache
-C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\Modul002_Basics\obj\Debug\net5.0\Modul002_Basics.RazorCoreGenerate.cache
-C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\Modul002_Basics\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\Modul002_Basics\obj\Debug\net5.0\Modul002_Basics.RazorTargetAssemblyInfo.cs
-C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\Modul002_Basics\obj\Debug\net5.0\Modul002_Basics.Views.pdb
