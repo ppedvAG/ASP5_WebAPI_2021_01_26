@@ -69,18 +69,33 @@ namespace MovieDBClient
             HttpRequestMessage requestMessage = new HttpRequestMessage(HttpMethod.Get, baseURL);
             HttpResponseMessage responseMessage = await client.SendAsync(requestMessage);
 
-            string jsonText = await responseMessage.Content.ReadAsStringAsync();
-
-            XmlSerializer serializer = new XmlSerializer(typeof(List<Movie>));
-
-            StringReader stringReader = new StringReader(jsonText);
-            List<Movie> list = (List<Movie>)serializer.Deserialize(stringReader);
+            string xmlText = await responseMessage.Content.ReadAsStringAsync();
 
 
-            foreach (Movie currentMovie in list)
+            var buffer = Encoding.UTF8.GetBytes(xmlText);
+            ArrayOfMovie arrayOfMovie = null;
+            using (var stream = new MemoryStream(buffer))
             {
-                Console.WriteLine($"Filmtitel: {currentMovie.title}");
-                Console.WriteLine($"Preis: {currentMovie.price}");
+                var serializer = new XmlSerializer(typeof(ArrayOfMovie)); // FAILED LINE
+                arrayOfMovie = (ArrayOfMovie)serializer.Deserialize(stream);
+                //then do whatever you want
+            }
+
+
+
+
+
+
+
+
+
+            
+
+
+            foreach (ArrayOfMovieMovie currentMovie in arrayOfMovie.Movie)
+            {
+                Console.WriteLine($"Filmtitel: {currentMovie.Title}");
+                Console.WriteLine($"Preis: {currentMovie.Price}");
                 Console.WriteLine("------------------------------------------------");
             }
 
@@ -137,4 +152,86 @@ namespace MovieDBClient
         public string title { get; set; }
         public decimal price { get; set; }
     }
+
+
+    // HINWEIS: Für den generierten Code ist möglicherweise mindestens .NET Framework 4.5 oder .NET Core/Standard 2.0 erforderlich.
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public partial class ArrayOfMovie
+    {
+
+        private ArrayOfMovieMovie[] movieField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Movie")]
+        public ArrayOfMovieMovie[] Movie
+        {
+            get
+            {
+                return this.movieField;
+            }
+            set
+            {
+                this.movieField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ArrayOfMovieMovie
+    {
+
+        private byte idField;
+
+        private string titleField;
+
+        private decimal priceField;
+
+        /// <remarks/>
+        public byte Id
+        {
+            get
+            {
+                return this.idField;
+            }
+            set
+            {
+                this.idField = value;
+            }
+        }
+
+        /// <remarks/>
+        public string Title
+        {
+            get
+            {
+                return this.titleField;
+            }
+            set
+            {
+                this.titleField = value;
+            }
+        }
+
+        /// <remarks/>
+        public decimal Price
+        {
+            get
+            {
+                return this.priceField;
+            }
+            set
+            {
+                this.priceField = value;
+            }
+        }
+    }
+
+
 }
