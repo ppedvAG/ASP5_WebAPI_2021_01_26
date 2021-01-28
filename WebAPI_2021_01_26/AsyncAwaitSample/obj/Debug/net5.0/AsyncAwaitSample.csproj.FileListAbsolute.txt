@@ -5,7 +5,6 @@ C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\AsyncAwaitSample\bin\
 C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\AsyncAwaitSample\bin\Debug\net5.0\AsyncAwaitSample.dll
 C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\AsyncAwaitSample\bin\Debug\net5.0\ref\AsyncAwaitSample.dll
 C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\AsyncAwaitSample\bin\Debug\net5.0\AsyncAwaitSample.pdb
-C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\AsyncAwaitSample\obj\Debug\net5.0\AsyncAwaitSample.csprojAssemblyReference.cache
 C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\AsyncAwaitSample\obj\Debug\net5.0\AsyncAwaitSample.GeneratedMSBuildEditorConfig.editorconfig
 C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\AsyncAwaitSample\obj\Debug\net5.0\AsyncAwaitSample.AssemblyInfoInputs.cache
 C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\AsyncAwaitSample\obj\Debug\net5.0\AsyncAwaitSample.AssemblyInfo.cs

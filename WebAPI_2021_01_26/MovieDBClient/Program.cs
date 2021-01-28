@@ -175,14 +175,14 @@ namespace MovieDBClient
     public partial class ArrayOfMovieMovie
     {
 
-        private byte idField;
+        private int idField;
 
         private string titleField;
 
         private decimal priceField;
 
         /// <remarks/>
-        public byte Id
+        public int Id
         {
             get
             {

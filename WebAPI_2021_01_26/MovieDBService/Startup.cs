@@ -29,9 +29,35 @@ namespace MovieDBService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //halloLiebeTeilnehmerAlleErstenBuchstabenEinesWortesWerdenGroßGeschrieben
+            //strVorname strNachname
+            //services.AddControllers();
+            //.AddXmlSerializerFormatters();
 
-            services.AddControllers()
-                .AddXmlSerializerFormatters();
+            //https://docs.microsoft.com/de-de/aspnet/core/web-api/advanced/formatting?view=aspnetcore-5.0
+            services.AddControllers(options =>
+            {
+                options.RespectBrowserAcceptHeader = true; // false by default
+                options.ReturnHttpNotAcceptable = true; // 406 Status Fehler wird zurück geliefert, wenn bei der Requestanfrage das Format nicht unterstützt wird. 
+            }).AddXmlSerializerFormatters();
+
+
+            services.AddControllers().AddJsonOptions(options =>
+            {
+                // Use the default property (Pascal) casing.
+                options.JsonSerializerOptions.PropertyNamingPolicy = null;
+                //options.JsonSerializerOptions.MaxDepth = 
+
+                // Configure a custom converter.
+                //options.JsonSerializerOptions.Converters.Add(new MyCustomJsonConverter());
+            });
+
+
+
+
+
+
+
 
             services.AddDbContext<MovieDBContext>(opt =>
             {

@@ -9,3 +9,4 @@ C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\DependecyInjection\ob
 C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\DependecyInjection\obj\Debug\net5.0\DependecyInjection.dll
 C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\DependecyInjection\obj\Debug\net5.0\ref\DependecyInjection.dll
 C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\DependecyInjection\obj\Debug\net5.0\DependecyInjection.pdb
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\DependecyInjection\obj\Debug\net5.0\DependecyInjection.csprojAssemblyReference.cache
