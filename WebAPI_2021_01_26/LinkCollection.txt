@@ -8,6 +8,7 @@ Logging Library -> Serilog. -> Wird in der Program.cs meist eingebunden.
 
 
 
+
 Fragen: 
 - ProducesResponseType -> welchen Benefitz hat Swagger? 
 - env.IsStaging  + env.IsEnviroment = kann man das via appsetting.json definieren. 
@@ -16,3 +17,17 @@ Fragen:
                              nameof(DefaultApiConventions.Put))]
 
 
+Blogs:
+- https://devblogs.microsoft.com/aspnet/author/jamesnewtonking/
+- https://devblogs.microsoft.com/
+
+Author für EF und Architektur
+http://thedatafarm.com/blog/
+
+Design Pattern:
+https://martinfowler.com/
+
+
+
+Customize ModelBinding kommt in den seltens Fällen vor. Das meiste wird von Standard Model-Binding abgedeckt. 
+https://docs.microsoft.com/de-de/aspnet/core/mvc/advanced/custom-model-binding?view=aspnetcore-5.0

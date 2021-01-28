@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\LABS_Modularisierung\\WebAPI_Standard\\DEMOS\\Modul004\\WebApiClient_CustomFormatterSample\\WebApiClient_CustomFormatterSample.csproj": {}
+    "C:\\Aktueller Kurs\\ASP5_WebAPI_2021_01_26\\WebAPI_2021_01_26\\WebApiClient_CustomFormatterSample\\WebApiClient_CustomFormatterSample.csproj": {}
   },
   "projects": {
-    "C:\\LABS_Modularisierung\\WebAPI_Standard\\DEMOS\\Modul004\\WebApiClient_CustomFormatterSample\\WebApiClient_CustomFormatterSample.csproj": {
+    "C:\\Aktueller Kurs\\ASP5_WebAPI_2021_01_26\\WebAPI_2021_01_26\\WebApiClient_CustomFormatterSample\\WebApiClient_CustomFormatterSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LABS_Modularisierung\\WebAPI_Standard\\DEMOS\\Modul004\\WebApiClient_CustomFormatterSample\\WebApiClient_CustomFormatterSample.csproj",
+        "projectUniqueName": "C:\\Aktueller Kurs\\ASP5_WebAPI_2021_01_26\\WebAPI_2021_01_26\\WebApiClient_CustomFormatterSample\\WebApiClient_CustomFormatterSample.csproj",
         "projectName": "WebApiClient_CustomFormatterSample",
-        "projectPath": "C:\\LABS_Modularisierung\\WebAPI_Standard\\DEMOS\\Modul004\\WebApiClient_CustomFormatterSample\\WebApiClient_CustomFormatterSample.csproj",
+        "projectPath": "C:\\Aktueller Kurs\\ASP5_WebAPI_2021_01_26\\WebAPI_2021_01_26\\WebApiClient_CustomFormatterSample\\WebApiClient_CustomFormatterSample.csproj",
         "packagesPath": "C:\\Users\\kw4\\.nuget\\packages\\",
-        "outputPath": "C:\\LABS_Modularisierung\\WebAPI_Standard\\DEMOS\\Modul004\\WebApiClient_CustomFormatterSample\\obj\\",
+        "outputPath": "C:\\Aktueller Kurs\\ASP5_WebAPI_2021_01_26\\WebAPI_2021_01_26\\WebApiClient_CustomFormatterSample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

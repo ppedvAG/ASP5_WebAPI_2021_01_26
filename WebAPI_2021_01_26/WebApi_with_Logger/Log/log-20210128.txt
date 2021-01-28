@@ -1,0 +1,150 @@
+2021-01-28 10:30:13.793 +01:00 [INF] Starting web host
+2021-01-28 10:30:19.061 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-28 10:30:19.086 +01:00 [INF] Hosting environment: Development
+2021-01-28 10:30:19.091 +01:00 [INF] Content root path: C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApi_with_Logger
+2021-01-28 10:30:19.178 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger - -
+2021-01-28 10:30:19.355 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger/index.html - -
+2021-01-28 10:30:19.421 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger - - - 301 - - 252.3963ms
+2021-01-28 10:30:19.747 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger/index.html - - - 200 - text/html;charset=utf-8 391.4409ms
+2021-01-28 10:30:19.817 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger/swagger-ui.css - -
+2021-01-28 10:30:19.819 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger/swagger-ui-bundle.js - -
+2021-01-28 10:30:19.820 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger/swagger-ui-standalone-preset.js - -
+2021-01-28 10:30:20.061 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-28 10:30:20.061 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-01-28 10:30:20.061 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-01-28 10:30:20.073 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger/swagger-ui.css - - - 200 142933 text/css 256.5984ms
+2021-01-28 10:30:20.093 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 272.7592ms
+2021-01-28 10:30:20.145 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 326.3322ms
+2021-01-28 10:30:20.981 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger/v1/swagger.json - -
+2021-01-28 10:30:21.060 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger/favicon-32x32.png - -
+2021-01-28 10:30:21.062 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-28 10:30:21.063 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger/favicon-32x32.png - - - 200 628 image/png 2.3620ms
+2021-01-28 10:30:21.208 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 227.9004ms
+2021-01-28 10:46:57.048 +01:00 [INF] Starting web host
+2021-01-28 10:46:58.823 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-28 10:46:58.832 +01:00 [INF] Hosting environment: Development
+2021-01-28 10:46:58.833 +01:00 [INF] Content root path: C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApi_with_Logger
+2021-01-28 10:46:58.855 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger/index.html - -
+2021-01-28 10:46:58.995 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger/index.html - - - 200 - text/html;charset=utf-8 142.0243ms
+2021-01-28 10:46:59.317 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger/v1/swagger.json - -
+2021-01-28 10:46:59.395 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.6290ms
+2021-01-28 10:47:05.291 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/Home/Error - -
+2021-01-28 10:47:05.324 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/Home/Error - - - 404 - - 31.9189ms
+2021-01-28 10:47:48.362 +01:00 [INF] Starting web host
+2021-01-28 10:47:50.140 +01:00 [INF] User profile is available. Using 'C:\Users\kw4\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-28 10:47:50.517 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-28 10:47:50.517 +01:00 [INF] Hosting environment: Development
+2021-01-28 10:47:50.518 +01:00 [INF] Content root path: C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApi_with_Logger
+2021-01-28 10:47:50.585 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger/index.html - -
+2021-01-28 10:47:50.736 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger/index.html - - - 200 - text/html;charset=utf-8 153.1799ms
+2021-01-28 10:47:51.007 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger/v1/swagger.json - -
+2021-01-28 10:47:51.134 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 127.1791ms
+2021-01-28 10:47:57.695 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/Home/Error - -
+2021-01-28 10:47:57.726 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/Home/Error - - - 404 - - 30.5250ms
+2021-01-28 10:48:58.322 +01:00 [INF] Starting web host
+2021-01-28 10:49:00.349 +01:00 [INF] User profile is available. Using 'C:\Users\kw4\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-28 10:49:00.630 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-28 10:49:00.630 +01:00 [INF] Hosting environment: Development
+2021-01-28 10:49:00.630 +01:00 [INF] Content root path: C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApi_with_Logger
+2021-01-28 10:49:00.685 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger/index.html - -
+2021-01-28 10:49:00.812 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger/index.html - - - 200 - text/html;charset=utf-8 129.0043ms
+2021-01-28 10:49:01.013 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger/v1/swagger.json - -
+2021-01-28 10:49:01.097 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 84.1212ms
+2021-01-28 10:49:06.557 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/Home/Index - -
+2021-01-28 10:49:06.600 +01:00 [INF] Executing endpoint 'WebApi_with_Logger.Controllers.HomeController.Index (WebApi_with_Logger)'
+2021-01-28 10:49:06.629 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApi_with_Logger.Controllers.HomeController (WebApi_with_Logger).
+2021-01-28 10:49:06.706 +01:00 [INF] Executing action method WebApi_with_Logger.Controllers.HomeController.Index (WebApi_with_Logger) - Validation state: "Valid"
+2021-01-28 10:49:06.713 +01:00 [INF] Executed action method WebApi_with_Logger.Controllers.HomeController.Index (WebApi_with_Logger), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.717ms.
+2021-01-28 10:49:06.737 +01:00 [INF] Executing ViewResult, running view Index.
+2021-01-28 10:49:06.772 +01:00 [INF] Executed ViewResult - view Index executed in 43.1156ms.
+2021-01-28 10:49:06.773 +01:00 [INF] Executed action WebApi_with_Logger.Controllers.HomeController.Index (WebApi_with_Logger) in 143.2424ms
+2021-01-28 10:49:06.773 +01:00 [INF] Executed endpoint 'WebApi_with_Logger.Controllers.HomeController.Index (WebApi_with_Logger)'
+2021-01-28 10:49:06.774 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/Home/Index - - - 200 - text/html;+charset=utf-8 216.4652ms
+2021-01-28 10:49:06.799 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/favicon.ico - -
+2021-01-28 10:49:06.801 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/favicon.ico - - - 404 - - 2.3393ms
+2021-01-28 10:49:14.211 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/Home/Error - -
+2021-01-28 10:49:14.212 +01:00 [INF] Executing endpoint 'WebApi_with_Logger.Controllers.HomeController.Error (WebApi_with_Logger)'
+2021-01-28 10:49:14.214 +01:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller WebApi_with_Logger.Controllers.HomeController (WebApi_with_Logger).
+2021-01-28 10:49:14.228 +01:00 [INF] Executing action method WebApi_with_Logger.Controllers.HomeController.Error (WebApi_with_Logger) - Validation state: "Valid"
+2021-01-28 10:49:14.229 +01:00 [INF] Executed action method WebApi_with_Logger.Controllers.HomeController.Error (WebApi_with_Logger), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2991ms.
+2021-01-28 10:49:14.230 +01:00 [INF] Executing ViewResult, running view Error.
+2021-01-28 10:49:14.237 +01:00 [INF] Executed ViewResult - view Error executed in 8.2871ms.
+2021-01-28 10:49:14.238 +01:00 [INF] Executed action WebApi_with_Logger.Controllers.HomeController.Error (WebApi_with_Logger) in 23.8137ms
+2021-01-28 10:49:14.238 +01:00 [INF] Executed endpoint 'WebApi_with_Logger.Controllers.HomeController.Error (WebApi_with_Logger)'
+2021-01-28 10:49:14.239 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/Home/Error - - - 200 - text/html;+charset=utf-8 27.7885ms
+2021-01-28 10:50:22.084 +01:00 [INF] Starting web host
+2021-01-28 10:50:23.791 +01:00 [INF] User profile is available. Using 'C:\Users\kw4\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-28 10:50:24.066 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-28 10:50:24.066 +01:00 [INF] Hosting environment: Development
+2021-01-28 10:50:24.067 +01:00 [INF] Content root path: C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApi_with_Logger
+2021-01-28 10:50:24.127 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger/index.html - -
+2021-01-28 10:50:24.253 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger/index.html - - - 200 - text/html;charset=utf-8 129.7666ms
+2021-01-28 10:50:24.460 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger/v1/swagger.json - -
+2021-01-28 10:50:24.575 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.5535ms
+2021-01-28 10:50:41.680 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/WeatherForecast - -
+2021-01-28 10:50:41.719 +01:00 [INF] Executing endpoint 'WebApi_with_Logger.Controllers.WeatherForecastController.Get (WebApi_with_Logger)'
+2021-01-28 10:50:41.745 +01:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi_with_Logger.WeatherForecast] Get() on controller WebApi_with_Logger.Controllers.WeatherForecastController (WebApi_with_Logger).
+2021-01-28 10:50:41.789 +01:00 [INF] Executing action method WebApi_with_Logger.Controllers.WeatherForecastController.Get (WebApi_with_Logger) - Validation state: "Valid"
+2021-01-28 10:50:45.332 +01:00 [INF] Executed action WebApi_with_Logger.Controllers.WeatherForecastController.Get (WebApi_with_Logger) in 3577.6185ms
+2021-01-28 10:50:45.333 +01:00 [INF] Executed endpoint 'WebApi_with_Logger.Controllers.WeatherForecastController.Get (WebApi_with_Logger)'
+2021-01-28 10:50:45.343 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at WebApi_with_Logger.Controllers.WeatherForecastController.Get() in C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApi_with_Logger\Controllers\WeatherForecastController.cs:line 29
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-01-28 10:50:45.424 +01:00 [INF] Executing endpoint 'WebApi_with_Logger.Controllers.HomeController.Error (WebApi_with_Logger)'
+2021-01-28 10:50:45.427 +01:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller WebApi_with_Logger.Controllers.HomeController (WebApi_with_Logger).
+2021-01-28 10:50:45.448 +01:00 [INF] Executing action method WebApi_with_Logger.Controllers.HomeController.Error (WebApi_with_Logger) - Validation state: "Valid"
+2021-01-28 10:50:45.453 +01:00 [INF] Executed action method WebApi_with_Logger.Controllers.HomeController.Error (WebApi_with_Logger), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7905ms.
+2021-01-28 10:50:45.470 +01:00 [INF] Executing ViewResult, running view Error.
+2021-01-28 10:50:45.508 +01:00 [INF] Executed ViewResult - view Error executed in 45.1198ms.
+2021-01-28 10:50:45.509 +01:00 [INF] Executed action WebApi_with_Logger.Controllers.HomeController.Error (WebApi_with_Logger) in 81.8245ms
+2021-01-28 10:50:45.509 +01:00 [INF] Executed endpoint 'WebApi_with_Logger.Controllers.HomeController.Error (WebApi_with_Logger)'
+2021-01-28 10:50:45.510 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/WeatherForecast - - - 500 - text/html;+charset=utf-8 3830.0038ms
+2021-01-28 10:52:13.657 +01:00 [INF] Starting web host
+2021-01-28 10:52:32.678 +01:00 [INF] Starting web host
+2021-01-28 10:52:34.675 +01:00 [INF] User profile is available. Using 'C:\Users\kw4\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-28 10:52:34.975 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-28 10:52:34.976 +01:00 [INF] Hosting environment: Development
+2021-01-28 10:52:34.976 +01:00 [INF] Content root path: C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApi_with_Logger
+2021-01-28 10:52:35.030 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger/index.html - -
+2021-01-28 10:52:35.188 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger/index.html - - - 200 - text/html;charset=utf-8 156.7290ms
+2021-01-28 10:52:35.392 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/swagger/v1/swagger.json - -
+2021-01-28 10:52:35.464 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.2634ms
+2021-01-28 10:52:44.856 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/Weatherforecast - -
+2021-01-28 10:52:44.894 +01:00 [INF] Executing endpoint 'WebApi_with_Logger.Controllers.WeatherForecastController.Get (WebApi_with_Logger)'
+2021-01-28 10:52:44.929 +01:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi_with_Logger.WeatherForecast] Get() on controller WebApi_with_Logger.Controllers.WeatherForecastController (WebApi_with_Logger).
+2021-01-28 10:52:45.004 +01:00 [INF] Executing action method WebApi_with_Logger.Controllers.WeatherForecastController.Get (WebApi_with_Logger) - Validation state: "Valid"
+2021-01-28 10:52:45.036 +01:00 [INF] 28.01.2021 10:52:45: Wetterdaten werden abgerufen
+2021-01-28 10:52:45.041 +01:00 [INF] Executed action method WebApi_with_Logger.Controllers.WeatherForecastController.Get (WebApi_with_Logger), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 30.7527ms.
+2021-01-28 10:52:45.047 +01:00 [INF] Executing ObjectResult, writing value of type 'WebApi_with_Logger.WeatherForecast[]'.
+2021-01-28 10:52:45.069 +01:00 [INF] Executed action WebApi_with_Logger.Controllers.WeatherForecastController.Get (WebApi_with_Logger) in 133.3571ms
+2021-01-28 10:52:45.069 +01:00 [INF] Executed endpoint 'WebApi_with_Logger.Controllers.WeatherForecastController.Get (WebApi_with_Logger)'
+2021-01-28 10:52:45.069 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/Weatherforecast - - - 200 - application/json;+charset=utf-8 213.3696ms
+2021-01-28 10:52:52.889 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44327/Home/Error - -
+2021-01-28 10:52:52.891 +01:00 [INF] Executing endpoint 'WebApi_with_Logger.Controllers.HomeController.Error (WebApi_with_Logger)'
+2021-01-28 10:52:52.893 +01:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller WebApi_with_Logger.Controllers.HomeController (WebApi_with_Logger).
+2021-01-28 10:52:52.908 +01:00 [INF] Executing action method WebApi_with_Logger.Controllers.HomeController.Error (WebApi_with_Logger) - Validation state: "Valid"
+2021-01-28 10:52:52.909 +01:00 [INF] Executed action method WebApi_with_Logger.Controllers.HomeController.Error (WebApi_with_Logger), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5811ms.
+2021-01-28 10:52:52.928 +01:00 [INF] Executing ViewResult, running view Error.
+2021-01-28 10:52:52.963 +01:00 [INF] Executed ViewResult - view Error executed in 45.3599ms.
+2021-01-28 10:52:52.964 +01:00 [INF] Executed action WebApi_with_Logger.Controllers.HomeController.Error (WebApi_with_Logger) in 70.7223ms
+2021-01-28 10:52:52.964 +01:00 [INF] Executed endpoint 'WebApi_with_Logger.Controllers.HomeController.Error (WebApi_with_Logger)'
+2021-01-28 10:52:52.965 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44327/Home/Error - - - 200 - text/html;+charset=utf-8 75.5183ms

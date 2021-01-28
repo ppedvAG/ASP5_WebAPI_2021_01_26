@@ -27,16 +27,20 @@ Tag 2: (Vormittgs):
 
 
 Tag 3: - (Vormittags):
-- [ ]  Error Handling
-- [ ]  Routing
-- [ ]  Formatter (XML, BSON?)
-- [ ]  Standard-Formatter / Formatter konfigurieren
-- [ ]  eigene Formatter implementieren
+- [x]  Error Handling
+
+- [x]  Formatter (XML, BSON?)
+- [x]  Standard-Formatter / Formatter konfigurieren
+- [x]  eigene Formatter implementieren
+- [ ]  WebAPI mit EF Core 5
 - [ ]  Model Binding. Was ist das? 
 
 
 Tag 4: - (Vormittags):
-- [ ]  WebAPI mit EF Core 5
+
+- [ ]  Authentifizierung
+- [ ]  Routing
+
 - [ ]  WebAPI Pagging / Searching / Caching
 - [ ]  WebAPI mit OData 
 - [ ]  Architekturübersicht: Hateoas, DataShapping, GraphQL

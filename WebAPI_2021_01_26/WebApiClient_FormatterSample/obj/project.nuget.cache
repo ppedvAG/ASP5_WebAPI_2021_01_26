@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V6xFoDEuG1gnBxI1B9/CJudIboCNlxcKn7Lum1+dryB37PRXJ482vTWZ8a9Pc7lVtdp4y0/4xKUMnQm6u+QWSQ==",
+  "dgSpecHash": "80HhHk1getkvI9O4pt41Qekplj/d6TLfyoeHtSofR4qNlnTdeTd/w1OXMQI0x1C8qnrhESp//eUJY6ew88vv0Q==",
   "success": true,
-  "projectFilePath": "C:\\LABS_Modularisierung\\WebAPI_Standard\\DEMOS\\Modul004\\WebApiClient_FormatterSample\\WebApiClient_FormatterSample.csproj",
+  "projectFilePath": "C:\\Aktueller Kurs\\ASP5_WebAPI_2021_01_26\\WebAPI_2021_01_26\\WebApiClient_FormatterSample\\WebApiClient_FormatterSample.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

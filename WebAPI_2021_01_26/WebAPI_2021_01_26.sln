@@ -27,6 +27,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieDBClient", "MovieDBCli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi_CustomFormatterSample", "WebApi_CustomFormatterSample\WebApi_CustomFormatterSample.csproj", "{2F6B6897-4B24-4DD3-8407-E44FC9C54581}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiClient_FormatterSample", "WebApiClient_FormatterSample\WebApiClient_FormatterSample.csproj", "{AE814CED-D708-462A-9460-1FBA18EBF06C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiClient_CustomFormatterSample", "WebApiClient_CustomFormatterSample\WebApiClient_CustomFormatterSample.csproj", "{E8BEBE76-2FAD-4A9D-A83A-159CD7B437D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul004", "Modul004", "{36415600-2CC7-4BDC-AB09-2D006E0360D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi_with_Logger", "WebApi_with_Logger\WebApi_with_Logger.csproj", "{F31CCE62-3282-47CB-B65F-2D3774501F64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI_with_EFCore", "WebAPI_with_EFCore\WebAPI_with_EFCore.csproj", "{FFB01072-651F-456F-9FBA-05D0389C5835}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +75,22 @@ Global
 		{2F6B6897-4B24-4DD3-8407-E44FC9C54581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F6B6897-4B24-4DD3-8407-E44FC9C54581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F6B6897-4B24-4DD3-8407-E44FC9C54581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE814CED-D708-462A-9460-1FBA18EBF06C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE814CED-D708-462A-9460-1FBA18EBF06C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE814CED-D708-462A-9460-1FBA18EBF06C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE814CED-D708-462A-9460-1FBA18EBF06C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8BEBE76-2FAD-4A9D-A83A-159CD7B437D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8BEBE76-2FAD-4A9D-A83A-159CD7B437D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8BEBE76-2FAD-4A9D-A83A-159CD7B437D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8BEBE76-2FAD-4A9D-A83A-159CD7B437D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31CCE62-3282-47CB-B65F-2D3774501F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31CCE62-3282-47CB-B65F-2D3774501F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31CCE62-3282-47CB-B65F-2D3774501F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31CCE62-3282-47CB-B65F-2D3774501F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB01072-651F-456F-9FBA-05D0389C5835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB01072-651F-456F-9FBA-05D0389C5835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB01072-651F-456F-9FBA-05D0389C5835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB01072-651F-456F-9FBA-05D0389C5835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +99,8 @@ Global
 		{3068FD84-6995-45C6-BA5B-4489DD820146} = {0921AFCD-680C-4FC8-8A02-A81833DA04C9}
 		{D4FEF0BB-CA9D-4DFE-A25E-212DA07DF021} = {0921AFCD-680C-4FC8-8A02-A81833DA04C9}
 		{83D5B6A0-8EF2-4D22-8BEC-B899F338CB40} = {0921AFCD-680C-4FC8-8A02-A81833DA04C9}
+		{F31CCE62-3282-47CB-B65F-2D3774501F64} = {36415600-2CC7-4BDC-AB09-2D006E0360D4}
+		{FFB01072-651F-456F-9FBA-05D0389C5835} = {36415600-2CC7-4BDC-AB09-2D006E0360D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E2F39392-B618-4F81-9ED7-FD9CD371EE37}

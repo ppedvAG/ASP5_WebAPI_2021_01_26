@@ -12,7 +12,7 @@ namespace WebApiClient_FormatterSample
             string url = "https://localhost:44353/api/contacts";
 
             HttpClient client = new();
-            client.DefaultRequestHeaders.Accept.Clear();
+            //client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/xml"));
             HttpRequestMessage message = new HttpRequestMessage(HttpMethod.Get, url);
             HttpResponseMessage response = await client.SendAsync(message);
