@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WebApiClient_CustomFormatterSample/1.0.0": {
+        "runtime": {
+          "WebApiClient_CustomFormatterSample.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebApiClient_CustomFormatterSample/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
