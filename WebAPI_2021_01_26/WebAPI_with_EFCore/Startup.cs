@@ -11,6 +11,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using WebAPI_with_EFCore.Data;
 
 namespace WebAPI_with_EFCore
 {
@@ -27,11 +29,29 @@ namespace WebAPI_with_EFCore
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllers();
+            services.AddControllers()
+                .AddNewtonsoftJson(options =>
+                {
+                    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+                    options.SerializerSettings.MaxDepth = 1;
+                });
+
+                //(options => )
+                //.AddJsonOptions(options =>
+                //{
+                //    options.JsonSerializerOptions.MaxDepth = 3;
+
+                //});
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPI_with_EFCore", Version = "v1" });
             });
+
+            services.AddDbContext<WebAPI_with_EFCoreContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("WebAPI_with_EFCoreContext"))
+            );
+                    
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

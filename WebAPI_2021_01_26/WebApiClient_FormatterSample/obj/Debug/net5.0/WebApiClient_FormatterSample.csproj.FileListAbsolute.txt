@@ -1,0 +1,16 @@
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApiClient_FormatterSample\bin\Debug\net5.0\WebApiClient_FormatterSample.exe
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApiClient_FormatterSample\bin\Debug\net5.0\WebApiClient_FormatterSample.deps.json
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApiClient_FormatterSample\bin\Debug\net5.0\WebApiClient_FormatterSample.runtimeconfig.json
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApiClient_FormatterSample\bin\Debug\net5.0\WebApiClient_FormatterSample.runtimeconfig.dev.json
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApiClient_FormatterSample\bin\Debug\net5.0\WebApiClient_FormatterSample.dll
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApiClient_FormatterSample\bin\Debug\net5.0\ref\WebApiClient_FormatterSample.dll
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApiClient_FormatterSample\bin\Debug\net5.0\WebApiClient_FormatterSample.pdb
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApiClient_FormatterSample\obj\Debug\net5.0\WebApiClient_FormatterSample.csprojAssemblyReference.cache
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApiClient_FormatterSample\obj\Debug\net5.0\WebApiClient_FormatterSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApiClient_FormatterSample\obj\Debug\net5.0\WebApiClient_FormatterSample.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApiClient_FormatterSample\obj\Debug\net5.0\WebApiClient_FormatterSample.AssemblyInfo.cs
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApiClient_FormatterSample\obj\Debug\net5.0\WebApiClient_FormatterSample.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApiClient_FormatterSample\obj\Debug\net5.0\WebApiClient_FormatterSample.dll
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApiClient_FormatterSample\obj\Debug\net5.0\ref\WebApiClient_FormatterSample.dll
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApiClient_FormatterSample\obj\Debug\net5.0\WebApiClient_FormatterSample.pdb
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\WebApiClient_FormatterSample\obj\Debug\net5.0\WebApiClient_FormatterSample.genruntimeconfig.cache

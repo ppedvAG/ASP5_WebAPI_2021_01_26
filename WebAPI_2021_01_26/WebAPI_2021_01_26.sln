@@ -32,6 +32,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiClient_CustomFormatterSample", "WebApiClient_CustomFormatterSample\WebApiClient_CustomFormatterSample.csproj", "{E8BEBE76-2FAD-4A9D-A83A-159CD7B437D9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul004", "Modul004", "{36415600-2CC7-4BDC-AB09-2D006E0360D4}"
+	ProjectSection(SolutionItems) = preProject
+		WebAPI_with_EFCore\EF Konzepte.txt = WebAPI_with_EFCore\EF Konzepte.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi_with_Logger", "WebApi_with_Logger\WebApi_with_Logger.csproj", "{F31CCE62-3282-47CB-B65F-2D3774501F64}"
 EndProject

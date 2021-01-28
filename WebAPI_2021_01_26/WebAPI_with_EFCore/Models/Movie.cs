@@ -19,7 +19,7 @@ namespace WebAPI_with_EFCore.Models
 
 
         //N:Fache Angabe
-        public ICollection<Actor> Actors { get; set; } = new HashSet<Actor>();
+        public virtual ICollection<Actor> Actors { get; set; } = new HashSet<Actor>();
     }
 
 

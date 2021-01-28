@@ -11,7 +11,7 @@ Tag 1: (Vormittags)
 - [x] Controller mit HttpVerbs
 - [x] Erwartetede Rückgabewerte und Statuscodes
 - [ ] Weitere Konventionen
-- [ ] Return Types
+
 
 
 Tag 2: (Vormittgs):
@@ -20,8 +20,8 @@ Tag 2: (Vormittgs):
 - [x]  Daten senden und empfangen
 - [x]  MediaTypes -> Client muss XML deserialisieren
 
-- [ ]  Http Client with Swagger.json
-- [ ]  Content Negotiation (Tag 3)
+- 
+- [o]  Content Negotiation (Tag 3) 
 - [o]  HttpRepl Einstieg -> Paper
 - [o]  Weitere Tools Postman und Fiddler (optionales)
 
@@ -32,15 +32,19 @@ Tag 3: - (Vormittags):
 - [x]  Formatter (XML, BSON?)
 - [x]  Standard-Formatter / Formatter konfigurieren
 - [x]  eigene Formatter implementieren
-- [ ]  WebAPI mit EF Core 5
-- [ ]  Model Binding. Was ist das? 
+- [x]  WebAPI mit EF Core 5
+- [ ]  Model Binding. Was ist das?
 
 
 Tag 4: - (Vormittags):
+- [ ]  Return Types (15 Minuten) 
+- [ ]  Formatter - BSON (15 Minuten)
+- [ ]  Authentifizierung (!!!!!)
+- [ ]  Routing (15-30 Minuten)
+- [ ]  WebAPI Pagging / Searching / Caching (pro Beispiel 5 Minuten)
+- [ ]  WebAPI mit OData (30-60 Minuten)
+- [ ]  Architekturübersicht: Hateoas, DataShapping, GraphQL (30-60 Minuten)
 
-- [ ]  Authentifizierung
-- [ ]  Routing
+- [ ]  N:M beim Serializiren in Verbindung mit EF Core -> WebAPI mit EF Core 5 (Nochmal nach einem Ansatz schauen)
 
-- [ ]  WebAPI Pagging / Searching / Caching
-- [ ]  WebAPI mit OData 
-- [ ]  Architekturübersicht: Hateoas, DataShapping, GraphQL
+- [ ]  Http Client with Swagger.json
