@@ -37,14 +37,19 @@ Tag 3: - (Vormittags):
 
 
 Tag 4: - (Vormittags):
-- [ ]  Authentifizierung
-- [ ]  Deployment IIS 
-- [ ]  Routing (15-30 Minuten)
-- [ ]  Caching
-- [ ]  Return Types (15 Minuten) 
-- [ ]  WebAPI mit OData (30-60 Minuten)
-- [ ]  Architekturübersicht: Hateoas, DataShapping, GraphQL (30-60 Minuten)
+- [x]  Authentifizierung
+- [x]  Deployment IIS 
+- [x]  Routing (15-30 Minuten)
+- [x]  Caching
+- [x]  Return Types (15 Minuten) 
+- [In Repository kopiert]  WebAPI mit OData (30-60 Minuten)
+- [x]  Architekturübersicht: Hateoas, DataShapping, GraphQL (30-60 Minuten)
  -------------------------- Optional --------------------------
-- [ ]  WebAPI Pagging / Searching  (pro Beispiel 5 Minuten)
-- [ ]  N:M beim Serializiren in Verbindung mit EF Core -> WebAPI mit EF Core 5 (Nochmal nach einem Ansatz schauen)
-- [ ]  Http Client with Swagger.json
+- [x]  WebAPI Pagging / Searching  (pro Beispiel 5 Minuten)
+- [x]  N:M beim Serializiren in Verbindung mit EF Core -> WebAPI mit EF Core 5 (Nochmal nach einem Ansatz schauen)
+
+- [ ]  Http Client with Swagger.json -> Tim Corey Asp.NET Core WebAPI  
+- [ ]     Reference zu HttpClient with Swagger.json   -> https://www.youtube.com/watch?v=nY-w9wPFEuY&t=2014s
+
+----------------------------------------------------------------
+

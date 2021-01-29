@@ -31,3 +31,21 @@ https://martinfowler.com/
 
 Customize ModelBinding kommt in den seltens Fällen vor. Das meiste wird von Standard Model-Binding abgedeckt. 
 https://docs.microsoft.com/de-de/aspnet/core/mvc/advanced/custom-model-binding?view=aspnetcore-5.0
+
+- https://www.youtube.com/watch?v=Ef1rd9vlXig HttpRepl
+
+
+Code-Maze: Hateoas
+Theorie: -> https://code-maze.com/hateoas-aspnet-core-web-api/
+GitHub: -> https://github.com/CodeMazeBlog/advanced-rest-concepts-aspnetcore/tree/hateoas-end
+
+Data-Shapping: 
+Theorie -> https://code-maze.com/data-shaping-aspnet-core-webapi/
+Github -> https://github.com/CodeMazeBlog/advanced-rest-concepts-aspnetcore/tree/datashaping-end
+
+Paging -> https://code-maze.com/paging-aspnet-core-webapi/
+Filtering -> https://code-maze.com/filtering-aspnet-core-webapi/
+Sorting -> https://code-maze.com/sorting-aspnet-core-webapi/
+Searching -> https://code-maze.com/searching-aspnet-core-webapi/
+
+Aktuelle beliebte Library GraphQL -> https://code-maze.com/graphql-asp-net-core-tutorial/
