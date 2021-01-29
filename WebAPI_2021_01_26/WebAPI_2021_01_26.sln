@@ -36,9 +36,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul004", "Modul004", "{36
 		WebAPI_with_EFCore\EF Konzepte.txt = WebAPI_with_EFCore\EF Konzepte.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi_with_Logger", "WebApi_with_Logger\WebApi_with_Logger.csproj", "{F31CCE62-3282-47CB-B65F-2D3774501F64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi_with_Logger", "WebApi_with_Logger\WebApi_with_Logger.csproj", "{F31CCE62-3282-47CB-B65F-2D3774501F64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI_with_EFCore", "WebAPI_with_EFCore\WebAPI_with_EFCore.csproj", "{FFB01072-651F-456F-9FBA-05D0389C5835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI_with_EFCore", "WebAPI_with_EFCore\WebAPI_with_EFCore.csproj", "{FFB01072-651F-456F-9FBA-05D0389C5835}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul005", "Modul005", "{E3E80289-88B0-4E24-B816-AC7DB59E255B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTBearerAuthService", "JWTBearerAuthService\JWTBearerAuthService.csproj", "{B127C8AA-6E7B-46A8-9389-5C41E41B1E6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,6 +98,10 @@ Global
 		{FFB01072-651F-456F-9FBA-05D0389C5835}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFB01072-651F-456F-9FBA-05D0389C5835}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFB01072-651F-456F-9FBA-05D0389C5835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B127C8AA-6E7B-46A8-9389-5C41E41B1E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B127C8AA-6E7B-46A8-9389-5C41E41B1E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B127C8AA-6E7B-46A8-9389-5C41E41B1E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B127C8AA-6E7B-46A8-9389-5C41E41B1E6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +112,7 @@ Global
 		{83D5B6A0-8EF2-4D22-8BEC-B899F338CB40} = {0921AFCD-680C-4FC8-8A02-A81833DA04C9}
 		{F31CCE62-3282-47CB-B65F-2D3774501F64} = {36415600-2CC7-4BDC-AB09-2D006E0360D4}
 		{FFB01072-651F-456F-9FBA-05D0389C5835} = {36415600-2CC7-4BDC-AB09-2D006E0360D4}
+		{B127C8AA-6E7B-46A8-9389-5C41E41B1E6A} = {E3E80289-88B0-4E24-B816-AC7DB59E255B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E2F39392-B618-4F81-9ED7-FD9CD371EE37}

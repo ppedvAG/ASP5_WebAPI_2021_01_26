@@ -37,14 +37,14 @@ Tag 3: - (Vormittags):
 
 
 Tag 4: - (Vormittags):
-- [ ]  Return Types (15 Minuten) 
-- [ ]  Formatter - BSON (15 Minuten)
-- [ ]  Authentifizierung (!!!!!)
+- [ ]  Authentifizierung
+- [ ]  Deployment IIS 
 - [ ]  Routing (15-30 Minuten)
-- [ ]  WebAPI Pagging / Searching / Caching (pro Beispiel 5 Minuten)
+- [ ]  Caching
+- [ ]  Return Types (15 Minuten) 
 - [ ]  WebAPI mit OData (30-60 Minuten)
 - [ ]  Architekturübersicht: Hateoas, DataShapping, GraphQL (30-60 Minuten)
-
+ -------------------------- Optional --------------------------
+- [ ]  WebAPI Pagging / Searching  (pro Beispiel 5 Minuten)
 - [ ]  N:M beim Serializiren in Verbindung mit EF Core -> WebAPI mit EF Core 5 (Nochmal nach einem Ansatz schauen)
-
 - [ ]  Http Client with Swagger.json

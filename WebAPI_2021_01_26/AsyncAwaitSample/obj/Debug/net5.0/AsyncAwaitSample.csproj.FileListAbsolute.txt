@@ -13,3 +13,4 @@ C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\AsyncAwaitSample\obj\
 C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\AsyncAwaitSample\obj\Debug\net5.0\ref\AsyncAwaitSample.dll
 C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\AsyncAwaitSample\obj\Debug\net5.0\AsyncAwaitSample.pdb
 C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\AsyncAwaitSample\obj\Debug\net5.0\AsyncAwaitSample.genruntimeconfig.cache
+C:\Aktueller Kurs\ASP5_WebAPI_2021_01_26\WebAPI_2021_01_26\AsyncAwaitSample\obj\Debug\net5.0\AsyncAwaitSample.csprojAssemblyReference.cache
